@@ -20,7 +20,7 @@ const Coins = ({name, price, symbol, market, volume, image, priceChange, id,rank
 
             <div className={styles.coin_data}>
                 <p className={styles.coin_price}>€{price.toLocaleString()}</p>
-                <p className={styles.coin_volume}>€{volume.toLocaleString()}</p>
+                <p className={styles.coin_volume}>€{parseInt(volume).toLocaleString()}</p>
 
         {/* Since prices are constantly changing, we want it to be Green if goes up, and Red if goes down... */}
 
