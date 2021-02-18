@@ -5,12 +5,19 @@ import Link from 'next/link'
 const Coins = ({name, price, symbol, market, volume, image, priceChange, id,rank}) => {
 
     return (
+
     <Link href='/coin/[id]' as={`/coin/${id}`}>
+
 
     <a>
 
+
+
+
     <div className={styles.coin_container}>
         <div className={styles.coin_row}>
+
+
             <div className={styles.coin}>
                 <p>{rank}.</p>
                 <img src={image} alt={name} className={styles.coin_img}/>

@@ -2,6 +2,7 @@ import {useState} from 'react'
 import SearchBar from '../components/SearchBar'
 import CoinList from '../components/CoinList/CoinList'
 import Layout from '../components/Layout/Layout'
+import Title from '../components/Title'
 
 
 
@@ -25,6 +26,7 @@ export default function Home(
 
 
       <SearchBar type="text"  placeholder="Search..." onChange={handleChange}/>
+      <Title />
       <CoinList filteredCoins={allCoins}/>
     </div>
     </Layout>

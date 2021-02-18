@@ -11,9 +11,9 @@ const Coin = ({coin}) => {
 
                     <h1 className={styles.coin_name}>{coin.name}</h1>
 
-                    <p className={styles.coin_ticker}>{coin.symbol}</p>
+                    <p className={styles.coin_ticker}>Symbol: {coin.symbol}</p>
 
-                    <p className={styles.coin_current}>€{coin.market_data.current_price.eur.toLocaleString()}</p>
+                    <p className={styles.coin_current}>Price: €{coin.market_data.current_price.eur.toLocaleString()}</p>
 
                     <p>
                        Rank: {coin.market_cap_rank}

@@ -3,7 +3,7 @@
   justify-content: center;
   height: 100vh;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 .coin_container {
   display: flex;
@@ -24,6 +24,7 @@
 }
 .coin_name {
   margin-bottom: 1rem;
+  text-align: center;
 }
 .coin_current {
   margin-bottom: 1rem;

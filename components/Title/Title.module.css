@@ -1,0 +1,175 @@
+.title_container {
+  display: flex;
+  justify-content: center;
+}
+.title_row {
+  position: sticky;
+  top: 0;
+  background-color: #e77817;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  border: 2px solid black;
+  width: 1000px;
+  padding: 0 2rem;
+}
+
+.title {
+  width: 40%;
+  display: flex;
+  justify-content: left;
+  padding-right: 30px;
+}
+.title_img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.title_h1 {
+  font-size: 1rem;
+  width: 120px;
+}
+.title_symbol {
+  width: 50px;
+}
+.title_data {
+  display: flex;
+  text-align: right;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.title_price {
+  width: 100px;
+}
+.title_volume {
+  width: 105px;
+}
+.title_market {
+  width: 200px;
+}
+.title_percent {
+  width: 120px;
+}
+
+/* Media queries  */
+/*
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+  */
+
+@media (min-width: 1281px) {
+  .title_row {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .title_data,
+  .title_price,
+  .title_market,
+  .title_percent,
+  .title_volume {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .title_row {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .title_data,
+  .title_price,
+  .title_market,
+  .title_percent,
+  .title_volume {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title_row {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .title_data,
+  .title_price,
+  .title_market,
+  .title_percent,
+  .title_volume {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .title_row {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .title_data,
+  .title_price,
+  .title_market,
+  .title_percent,
+  .title_volume {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .title_row {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .title_data,
+  .title_price,
+  .title_market,
+  .title_percent,
+  .title_volume {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .title_row {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .title_data,
+  .title_price,
+  .title_market,
+  .title_percent,
+  .title_volume {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
